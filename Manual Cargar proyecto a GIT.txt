@@ -17,4 +17,12 @@ git branch -M main -- Se indica que se va subir a la rama principal
 git remote add origin https://github.com/andrescamilo1286/Python-Scripts.git  - Se copia desde la pagina de GIT
 git push -u origin main -- Se realiza para hacer la incronizacion de mi local con GIT
 
---Si no me he logueado me sale una ventana para hacerlo
+--Si no me he logueado me sale una ventana para hacerlo--
+
+SUBIR CAMBIOS
+
+git status -- Verificar que se modifico
+git add .
+git commit -m "Se agrega cambio" en mi local  -  
+git push -u origin main -- Se realiza para hacer la incronizacion de mi local con GIT
+git log -- Se ven los cambios del proyecto
