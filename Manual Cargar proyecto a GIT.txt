@@ -1,0 +1,20 @@
+Cargar Repositorio(Proyecto) a GIT
+
+1.En Git voy y creo un nuevo repositorio y le doy el nombre del proyecto que voy a subir.
+
+2.Voy a la carpeta del proyecto y doy clic derecho y selecciono GIT Basch Here.
+
+3.Luego se abr el Shell de phyton e ingreso los codigos de la pagina de GIT:
+
+git init  -- Inicializo el repositorio
+git status -- Verifico que voy a subir
+git add . --cargo toda la carpeta del proyecto o reemplazo el . por el nombre de lo que voy a cargar
+git commit -m "Se agrega proyecto" -- Cargo el proyecto -- Carga cambios realizados
+git config --global user.email andres.estrada@arus.com.co -- Configurar credenciales Correo
+git config --global user.name andrescamilo1286  --- Configurar credenciales usuario
+git commit -m "Se agrega proyecto" -- Se repite para que queden guardados
+git branch -M main -- Se indica que se va subir a la rama principal
+git remote add origin https://github.com/andrescamilo1286/Python-Scripts.git  - Se copia desde la pagina de GIT
+git push -u origin main -- Se realiza para hacer la incronizacion de mi local con GIT
+
+--Si no me he logueado me sale una ventana para hacerlo
