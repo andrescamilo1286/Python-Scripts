@@ -1,0 +1,6 @@
+1. Voy al repositorio en GIT y voy al repositorio que voy a clonar.
+2. Voy a la pestaña code y copio el link.
+3. Voy a la carpeta que se debe llamar igual al repo que voy a descargar.
+4. Clic derecho y selecciono Git Bash Here
+5. Se abre la consulo y digitamos git clone ... Pegamos la URL del repo ...
+6.....
